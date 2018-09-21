@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "create-shield-study": "create-shield-study"
+    "create-shield-study": "plop --plopfile plop-shield-study.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
