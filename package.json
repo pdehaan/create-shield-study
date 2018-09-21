@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "create-shield-study": "plop --plopfile plop-shield-study.js"
+    "create-shield-study": "create-shield-study"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,8 @@
   "keywords": [],
   "author": "Mozilla",
   "license": "MPL-2.0",
-  "devDependencies": {
-    "plop": "^2.1.0"
+  "dependencies": {
+    "plop": "^2.1.0",
+    "node-plop": "0.16.0"
   }
 }
