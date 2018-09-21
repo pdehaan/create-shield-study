@@ -2,13 +2,15 @@
   "name": "x-create-shield-study",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "bin": {
+    "create-shield-study": "create-shield-study"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mozilla",
+  "license": "MPL-2.0",
   "devDependencies": {
     "plop": "^2.1.0"
   }
